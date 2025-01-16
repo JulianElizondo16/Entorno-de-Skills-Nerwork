@@ -40,7 +40,10 @@ function endTest() {
   var outputDiv = document.getElementById("output");
   outputDiv.innerHTML =
     "<h2>Resultados de la Prueba de Escritura:</h2>" +
-    "<p>Palabras Escribidas: " +
+    "<p>Palabras totales: " +
+    userTypedText.length +
+    "</p>" +
+    "<p>Palabras Escritas: " +
     typedWords +
     "</p>" +
     "<p>Tiempo Transcurrido: " +
